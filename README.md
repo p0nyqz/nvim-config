@@ -8,5 +8,6 @@
 - harpoon
 - undotree
 - lsp-zero
-
+- nvim-tree
+- vim-be-good
 - rose-pine colorscheme

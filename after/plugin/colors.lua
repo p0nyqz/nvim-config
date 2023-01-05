@@ -7,3 +7,8 @@ function ColorMyPencils(color)
 end
 
 -- ColorMyPencils()
+
+-- tokyonight
+-- vim.opt.termguicolors = true            --  24-bit RGB colors
+-- vim.g.tokyonight_style = 'storm'
+-- vim.cmd 'colorscheme tokyonight'

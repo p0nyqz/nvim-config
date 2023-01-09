@@ -49,6 +49,7 @@ return require('packer').startup(function(use)
 		  {'rafamadriz/friendly-snippets'},
 	  }
   }
+  use ('f-person/git-blame.nvim')
   use ('ThePrimeagen/vim-be-good')
   use ('nvim-tree/nvim-tree.lua')
   use ({"akinsho/toggleterm.nvim", tag = '*', config = function()

@@ -53,6 +53,7 @@ return require('packer').startup(function(use)
       'nvim-lualine/lualine.nvim',
       requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
+  use 'sunjon/shade.nvim'
   use ('f-person/git-blame.nvim')
   use ('ThePrimeagen/vim-be-good')
   use ('nvim-tree/nvim-tree.lua')

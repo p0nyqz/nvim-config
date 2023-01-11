@@ -9,5 +9,9 @@
 - undotree
 - lsp-zero
 - nvim-tree
+- shade
 - vim-be-good
 - rose-pine colorscheme
+- toggleterm
+- git-blame
+

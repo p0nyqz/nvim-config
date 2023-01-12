@@ -57,7 +57,15 @@ return require('packer').startup(function(use)
   use ('f-person/git-blame.nvim')
   use ('ThePrimeagen/vim-be-good')
   use ('nvim-tree/nvim-tree.lua')
-  use ({"akinsho/toggleterm.nvim", tag = '*', config = function()
+  use ({
+      "akinsho/toggleterm.nvim", tag = '*', config = function()
       require("toggleterm").setup()
-  end})
+  end
+  })
+  use({
+      "Pocco81/auto-save.nvim",
+      config = function()
+          require("auto-save").setup {}
+      end,
+  })
 end)

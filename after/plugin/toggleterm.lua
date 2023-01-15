@@ -1,6 +1,6 @@
 require("toggleterm").setup {
     size = 20,
-    open_mapping = [[<leader>t]],
+    open_mapping = [[<C-t>]],
     shade_filetypes = {},
     direction = "horizontal",
 }

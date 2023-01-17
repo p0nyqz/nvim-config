@@ -1,6 +1,7 @@
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
+vim.o.guifont = 'JetBrainsMono Nerd Font:h16'
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4

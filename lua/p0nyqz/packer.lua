@@ -13,7 +13,7 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
  
---  use 'ghifarit53/tokyonight-vim'
+  use 'ghifarit53/tokyonight-vim'
 
   use ({
 	  'rose-pine/neovim',
